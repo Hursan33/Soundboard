@@ -19,7 +19,7 @@
 
         bt_layer {
             bindings = <
-                &none   &bootloader   &none
+                &none   &bootloader   &bt BT_CLR_ALL
                 &none   &none   &none
             >;
         };
