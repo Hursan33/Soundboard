@@ -11,13 +11,17 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            &lt 1 A   &kp B   &kp C
-            &kp F   &kp E   &kp F
+            bindings = <
+                &lt 1 A   &kp B   &kp C
+                &kp F   &kp E   &kp F
+            >;
         };
 
         bt_layer {
-            &nothing   &bootloader   &nothing
-            &nothing   &nothing   &nothing
+            bindings = <
+                &none   &bootloader   &none
+                &none   &none   &none
+            >;
         };
     };
 };
