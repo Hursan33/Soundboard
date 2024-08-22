@@ -1,6 +1,6 @@
 if SHIELD_SOUNDBOARD
 
 config ZMK_KEYBOARD_NAME
-    default "Soundboard"
+    default "soundboard"
 
 endif
