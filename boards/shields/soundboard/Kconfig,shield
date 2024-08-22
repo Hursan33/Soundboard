@@ -1,2 +1,6 @@
-config SHIELD_SOUNDBOARD
-    def_bool $(shields_list_contains,soundboard)
+if SHIELD_SOUNDBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "soundboard"
+
+endif
