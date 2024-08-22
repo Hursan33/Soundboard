@@ -1,0 +1,22 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+&lt {
+    tapping-term-ms = <200>;
+};
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            &lt 1 A   &kp B   &kp C
+            &kp F   &kp E   &kp F
+        };
+
+        bt_layer {
+            &nothing   &bootloader   &nothing
+            &nothing   &nothing   &nothing
+        };
+    };
+};
