@@ -12,8 +12,8 @@
 
         default_layer {
             bindings = <
-                &lt 1 LA(X)   &kp LA(C)   &kp S
-                &kp D   &kp F   &kp LA(M)
+                &lt 1 LA(X)   &kp LA(C)   &kp LA(V)
+                &kp LA(B)   &kp LA(N)   &kp LA(M)
             >;
         };
 
